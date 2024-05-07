@@ -1,20 +1,73 @@
-:root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
-}
 body {
-    background-color: var(--cor-de-fundo);
-}
-<body>
-    <h1>Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1>
-</body>
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-}
-body {
-    background-color: var(--cor-de-fundo);
-    color: var(--branco-principal);
-}
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url('background.jpg'); /* Substitua 'background.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .about {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1, h2 {
+    margin-top: 0;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #ff7043;
+  }
+  
